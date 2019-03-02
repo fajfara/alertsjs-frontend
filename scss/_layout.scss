@@ -10,5 +10,7 @@ footer { grid-area: footer }
       'footer footer footer footer footer footer';
     grid-template-rows: 0.7fr 3fr 2fr;
     background-color: $pink;
+    background-image: url('.././img/svg/hideout.svg');
+    background-size: 10%;
     height: 100vh;
 }
