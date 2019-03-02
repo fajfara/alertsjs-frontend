@@ -1,0 +1,14 @@
+header { grid-area: header }
+main { grid-area: main }
+footer { grid-area: footer }
+
+.grid{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'main main main main main main'
+      'footer footer footer footer footer footer';
+    grid-template-rows: 0.7fr 3fr 2fr;
+    background-color: $pink;
+    height: 100vh;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700,900');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// VARIABLES
+
+// FONTS
+$roboto: 'Roboto', 'sans-serif';
+
+// COLORS:
+$white: #fff;
+$black: #111;
+$pink: #ff0084;
+
+// SHADOWS
+$material-shadow-1: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+// IMPORT SCSS FILES
+@import "layout";
+@import "header";
+@import "mainArea";
+
